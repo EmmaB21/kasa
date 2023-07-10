@@ -11,10 +11,10 @@ const Routeur = () => {
     <Router>
       <Layout>
         <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/accomodation" element={<Accomodation />} />
-        <Route path="/about" element={<About />} />
-        <Route path="*" element={<Error />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/accomodation" element={<Accomodation />} />
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<Error />} />
         </Routes>
       </Layout>
     </Router>

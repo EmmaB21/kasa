@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  max-width: 1440px;
+  min-width: 320px;
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  width: 100%;
+}
+
+.main-container {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=base.css.map */

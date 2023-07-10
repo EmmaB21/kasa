@@ -1,0 +1,55 @@
+@use '../utils/variables';
+
+
+.navbar {
+    width: 100%;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 68px;
+    align-items: center;
+    padding: 0 40px;
+
+    @media (max-width : 767.99px) {
+        margin-top: 20px;
+        margin-bottom: 27px;
+        height: 47px;
+        padding: 0 20px;
+    }
+
+    .navbar__logo {
+        width: 210px;
+        height: 68px;
+
+        @media (max-width : 767.99px) {
+            width: 145px;
+            height: 47px;
+        }
+    }
+
+    .navbar__links {
+        display: flex;
+        flex-direction: row;
+
+        & li {
+            list-style-type: none;
+            padding-left: 57px;
+            font-size: 24px;
+
+            @media (max-width : 767.99px) {
+                font-size: 12px;
+                padding-left: 26px;
+            }
+        }
+
+        & a {
+            color: variables.$main-color;
+
+            &:active {
+                text-decoration-line: underline;
+            }
+        }
+
+    }
+}
