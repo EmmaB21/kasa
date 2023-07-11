@@ -1,0 +1,12 @@
+.home__ctn {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  padding: 0 40px;
+  margin: 50px 0;
+}
+@media (max-width: 767.99px) {
+  .home__ctn {
+    padding: 0 20px;
+  }
+}/*# sourceMappingURL=home.css.map */

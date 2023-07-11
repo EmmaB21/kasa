@@ -1,9 +1,10 @@
-
+import '../style/pages/home.css'
+import Banner from '../components/Banner'
 
 function Home() {
     return (
-        <div>
-            <h1>Home</h1>
+        <div className='home__ctn'>
+            < Banner />
         </div>
     )
 }
