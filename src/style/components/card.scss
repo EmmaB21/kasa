@@ -1,0 +1,46 @@
+@use '../utils/variables';
+
+
+.card {
+    height: 340px;
+    border-radius: 10px;
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: variables.$card-gradient;
+        border-radius: 10px;
+    }
+
+    @media (max-width : 767.99px) {
+        height: 255px;
+    }
+
+    & img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    & p {
+        position: absolute;
+        color: white;
+        font-size: 18px;
+        left: 20px;
+        bottom: -5px;
+        width: 50%;
+        text-align: left;
+        z-index: 1;
+    }
+
+    & a {
+        display: block;
+        height: 100%;
+    }
+}

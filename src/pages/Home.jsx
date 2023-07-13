@@ -1,10 +1,18 @@
 import '../style/pages/home.css'
 import Banner from '../components/Banner'
+import Card from '../components/Card'
+import img from '../assets/HomeBanner.jpg'
+import data from '../data/data.json'
 
 function Home() {
     return (
         <div className='home__ctn'>
-            < Banner />
+            < Banner image={img} text="Chez vous, partout et ailleurs" />
+            <section className='cards__ctn'>
+                    {data.map(card => (
+                        <Card key={card.id} card={card} />
+                    ))}
+            </section>
         </div>
     )
 }
