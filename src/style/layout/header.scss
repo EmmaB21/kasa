@@ -45,8 +45,8 @@
         & a {
             color: variables.$main-color;
 
-            &:active {
-                text-decoration-line: underline;
+            &.active {
+                border-bottom: 2px solid variables.$main-color;
             }
         }
 

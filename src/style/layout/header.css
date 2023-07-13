@@ -43,6 +43,6 @@
 .navbar .navbar__links a {
   color: #ff6060;
 }
-.navbar .navbar__links a:active {
-  text-decoration-line: underline;
+.navbar .navbar__links a.active {
+  border-bottom: 2px solid #ff6060;
 }/*# sourceMappingURL=header.css.map */
