@@ -6,7 +6,7 @@ import data from '../data/data.json'
 
 function Home() {
     return (
-        <div className='home__ctn'>
+        <div className='page__ctn'>
             < Banner image={img} text="Chez vous, partout et ailleurs" />
             <section className='cards__ctn'>
                     {data.map(card => (

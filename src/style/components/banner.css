@@ -43,4 +43,8 @@
     left: 0;
     transform: translate(0, -50%);
   }
+}
+
+.aboutBanner {
+  height: 223px;
 }/*# sourceMappingURL=banner.css.map */
