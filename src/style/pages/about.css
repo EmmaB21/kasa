@@ -1,0 +1,9 @@
+.collapses__ctn {
+  width: 100%;
+}
+@media (max-width: 767.99px) {
+  .collapses__ctn {
+    padding: 0;
+    margin-top: -20px;
+  }
+}/*# sourceMappingURL=about.css.map */

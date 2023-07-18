@@ -1,0 +1,67 @@
+.collapse {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  max-width: 1023px;
+  margin: 40px auto 0;
+}
+@media (max-width: 767.99px) {
+  .collapse {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+.collapse .collapse__title__ctn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ff6060;
+  padding: 10px 20px 10px 15px;
+  border-radius: 5px;
+  height: 52px;
+}
+@media (max-width: 767.99px) {
+  .collapse .collapse__title__ctn {
+    height: 32px;
+    padding: 0 10px;
+  }
+}
+.collapse .collapse__title__ctn .collapse__title {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+@media (max-width: 767.99px) {
+  .collapse .collapse__title__ctn .collapse__title {
+    font-size: 13px;
+    align-self: center;
+  }
+}
+.collapse .collapse__title__ctn .collapse__arrow {
+  background-color: #ff6060;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+.collapse .collapse__txt__ctn {
+  background-color: #f6f6f6;
+  color: #ff6060;
+  font-size: 18px;
+  text-align: left;
+  padding: 0 20px;
+  margin-top: 0;
+  z-index: -1;
+  transition: all 600ms ease;
+}
+@media (max-width: 767.99px) {
+  .collapse .collapse__txt__ctn {
+    font-size: 12px;
+  }
+}
+.collapse .collapse__hiddenTxt {
+  opacity: 0;
+  margin-top: -100px;
+  z-index: -1;
+  transition: all 600ms ease;
+}/*# sourceMappingURL=collapse.css.map */
