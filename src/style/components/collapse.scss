@@ -9,7 +9,8 @@
 
     @media (max-width : 767.99px) {
         width: 100%;
-        margin-top: 50px;
+        margin: 50px auto 20px;
+
     }
 
     & .collapse__title__ctn {
@@ -20,6 +21,7 @@
         padding: 10px 20px 10px 15px;
         border-radius: 5px;
         height: 52px;
+
 
         @media (max-width : 767.99px) {
             height: 32px;
@@ -63,8 +65,11 @@
 
     & .collapse__hiddenTxt {
         opacity: 0;
-        margin-top: -100px;
+        margin-top: -80px;
         z-index: -1;
         transition: all 600ms ease;
+        @media (max-width : 767.99px) {
+            margin-top: -120px;
+        }
     }
 }
