@@ -6,11 +6,14 @@
     border-radius: 5px;
     max-width: 1023px;
     margin: 40px auto 0;
+    min-height: 52px;
+    overflow: hidden;
 
     @media (max-width : 767.99px) {
         width: 100%;
-        margin: 50px auto 20px;
-
+        margin: 20px auto 0;
+        min-height: 32px;
+        overflow: hidden;
     }
 
     & .collapse__title__ctn {
@@ -21,7 +24,6 @@
         padding: 10px 20px 10px 15px;
         border-radius: 5px;
         height: 52px;
-
 
         @media (max-width : 767.99px) {
             height: 32px;
@@ -56,10 +58,11 @@
         padding: 0 20px;
         margin-top: 0;
         z-index: -1;
-        transition: all 600ms ease;
+        transition: all 600ms ease-in-out;
 
         @media (max-width : 767.99px) {
             font-size: 12px;
+            transition: all 600ms cubic-bezier(.54,.06,.51,.95);
         }
     }
 
@@ -67,9 +70,11 @@
         opacity: 0;
         margin-top: -80px;
         z-index: -1;
-        transition: all 600ms ease;
+        transition: all 600ms ease-in-out;
+
         @media (max-width : 767.99px) {
-            margin-top: -120px;
+            margin-top: -130px;
+            transition: all 600ms cubic-bezier(.54,.06,.51,.95);
         }
     }
 }

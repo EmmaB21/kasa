@@ -9,8 +9,8 @@ function Header() {
             <img className='navbar__logo' src={logo} alt='Logo Kasa' />
             <nav>
                 <ul className='navbar__links'>
-                    <li><NavLink to="/" activeClassName="active">Accueil</NavLink></li>
-                    <li><NavLink to="/about" activeClassName="active">A Propos</NavLink></li>
+                    <li><NavLink to="/">Accueil</NavLink></li>
+                    <li><NavLink to="/about">A Propos</NavLink></li>
                 </ul>
             </nav>
         </div>

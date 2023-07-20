@@ -13,10 +13,10 @@ function Collapse({ title, text }) {
         <div className="collapse">
             <div className='collapse__title__ctn'>
                 <h3 className='collapse__title'>{title}</h3>
-                <img onClick={handleComponentOpening} 
-                className="collapse__arrow"
+                <img onClick={handleComponentOpening}
+                    className="collapse__arrow"
                     src={isOpen ? arrow_down : arrow_up} alt="flèche"
-                     />
+                />
             </div>
             <div className={`collapse__txt__ctn ${isOpen ? "" : "collapse__hiddenTxt"}`}>
                 <p className='collapse__txt'>{text}</p>
