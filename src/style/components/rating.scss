@@ -1,0 +1,13 @@
+@use '../utils/variables';
+
+.fa-solid {
+    margin: 4px;
+}
+
+.pleine {
+    color: variables.$main-color;
+}
+
+.vide {
+    color: #e3e3e3;
+}

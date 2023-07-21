@@ -19,7 +19,7 @@ function Collapse({ title, text }) {
                 />
             </div>
             <div className={`collapse__txt__ctn ${isOpen ? "" : "collapse__hiddenTxt"}`}>
-                <p className='collapse__txt'>{text}</p>
+                <div className='collapse__txt'>{text}</div>
             </div>
         </div>
     )

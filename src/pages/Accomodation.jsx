@@ -2,7 +2,6 @@ import Slideshow from '../components/Slideshow'
 import AccomodationCard from '../components/AccomodationCard'
 import data from '../data/data.json'
 import { Navigate, useParams } from 'react-router-dom'
-import "../style/pages/accomodation.css"
 
 function Accomodation() {
     const { id } = useParams()

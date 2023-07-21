@@ -10,7 +10,7 @@ function Slideshow({ accomodation }) {
 
     return (
         <div className="slideshow">
-            <img className="slideshow__img" src={accomodation.pictures[currentPictureIndex]} alt="" />
+            <img className="slideshow__img" src={accomodation.pictures[currentPictureIndex]} alt="logement" />
             {accomodation.pictures.length === 1 ? null : (
                 <div>
                     <img onClick={() => previousPic()}
@@ -26,19 +26,6 @@ function Slideshow({ accomodation }) {
                         alt="Suivante" />
                 </div>
             )}
-            {/* <img onClick={() => previousPic()}
-                className={accomodation.pictures.length === 1 ? "hidden" : "slideshow__arrow arrow--left"}
-                src={arrow_left}
-                alt="Précédente" />
-
-            <p className={accomodation.pictures.length === 1 ? "hidden" : "slideshow__count"}>
-                {currentPictureIndex + 1}/{accomodation.pictures.length}
-            </p>
-            <img onClick={() => nextPic()}
-                className={accomodation.pictures.length === 1 ? "hidden" : "slideshow__arrow arrow--right"}
-                src={arrow_right}
-                alt="Suivante" /> */}
-
         </div>
     )
 }

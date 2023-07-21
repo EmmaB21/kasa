@@ -1,0 +1,88 @@
+.card__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.card__info .card__title {
+  color: #ff6060;
+  text-align: left;
+}
+.card__info .card__title h2 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 500;
+}
+.card__info .card__title p {
+  font-size: 18px;
+  margin-top: 4px;
+}
+.card__info .card_tags {
+  display: flex;
+}
+.card__info .card_tags ul {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-top: 12px;
+}
+.card__info .card_tags ul li {
+  list-style-type: none;
+  background-color: #ff6060;
+  color: white;
+  font-size: 14px;
+  height: 25px;
+  min-width: 115px;
+  padding: 4px 10px;
+  width: auto;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.card__info .card__host {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.card__info .card__host img {
+  width: 64px;
+  height: 64px;
+  border-radius: 60px;
+}
+.card__info .card__host p {
+  color: #ff6060;
+  font-size: 18px;
+  margin: auto 8px;
+  padding-top: 4px;
+  width: 93px;
+  height: 52px;
+  text-align: right;
+}
+.card__info .card_rate {
+  margin-top: 28px;
+}
+
+.card_collapses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 76px;
+}
+.card_collapses .collapse {
+  width: 50%;
+}
+.card_collapses .collapse .collapse__title__ctn {
+  border-radius: 10px;
+}
+.card_collapses .collapse .collapse__title__ctn .collapse__title {
+  font-size: 18px;
+  padding-top: 4px;
+}
+.card_collapses .collapse ul {
+  margin: 0;
+  padding-left: 0;
+}
+.card_collapses .collapse li {
+  list-style-type: none;
+}
+.card_collapses .collapse .collapse__hiddenTxt {
+  margin-top: -200px;
+}/*# sourceMappingURL=accomodationCard.css.map */
