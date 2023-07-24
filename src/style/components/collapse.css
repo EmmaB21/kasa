@@ -47,6 +47,16 @@
   width: 32px;
   height: 32px;
   cursor: pointer;
+  transform: rotate(0deg);
+  transition: transform 300ms ease-in-out;
+}
+.collapse .collapse__title__ctn .arrow_down {
+  transform: rotate(-180deg);
+  transition: transform 300ms ease-in-out;
+}
+.collapse .collapse__title__ctn .arrow_up {
+  transform: rotate(0deg);
+  transition: transform 300ms ease-in-out;
 }
 .collapse .collapse__txt__ctn {
   background-color: #f6f6f6;
