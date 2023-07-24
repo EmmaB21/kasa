@@ -144,35 +144,4 @@
     gap: 4px;
     margin-top: 13px;
   }
-}
-.card_collapses .collapse {
-  width: 50%;
-}
-@media (max-width: 767.99px) {
-  .card_collapses .collapse {
-    width: 100%;
-  }
-}
-.card_collapses .collapse .collapse__title__ctn {
-  border-radius: 10px;
-}
-.card_collapses .collapse .collapse__title__ctn .collapse__title {
-  font-size: 18px;
-  padding-top: 4px;
-}
-@media (max-width: 767.99px) {
-  .card_collapses .collapse .collapse__title__ctn .collapse__title {
-    font-size: 13px;
-    padding-top: 2px;
-  }
-}
-.card_collapses .collapse ul {
-  margin: 0;
-  padding-left: 0;
-}
-.card_collapses .collapse li {
-  list-style-type: none;
-}
-.card_collapses .collapse .collapse__hiddenTxt {
-  margin-top: -200px;
 }/*# sourceMappingURL=accomodationCard.css.map */

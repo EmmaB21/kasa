@@ -83,6 +83,7 @@
 
     .card__hostInfo {
         max-width: 30%;
+
         @media (max-width : 767.99px) {
             max-width: 100%;
             display: flex;
@@ -100,6 +101,7 @@
             width: 64px;
             height: 64px;
             border-radius: 60px;
+
             @media (max-width : 767.99px) {
                 width: 32px;
                 height: 32px;
@@ -115,7 +117,8 @@
             width: 93px;
             max-height: 52px;
             text-align: right;
-            overflow:auto;
+            overflow: auto;
+
             @media (max-width : 767.99px) {
                 font-size: 12px;
                 width: 60px;
@@ -140,45 +143,10 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 76px;
+
     @media (max-width : 767.99px) {
         flex-direction: column;
         gap: 4px;
         margin-top: 13px;
-    }
-
-    .collapse {
-        width: 50%;
-        @media (max-width : 767.99px) {
-            width: 100%;
-        }
-
-        .collapse__title__ctn {
-            border-radius: 10px;
-
-            .collapse__title {
-                font-size: 18px;
-                padding-top: 4px;
-                @media (max-width : 767.99px) {
-                    font-size: 13px;
-                    padding-top: 2px;
-                }
-
-            }
-        }
-
-        & ul {
-            margin: 0;
-            padding-left: 0;
-        }
-
-        & li {
-            list-style-type: none;
-
-        }
-
-        .collapse__hiddenTxt {
-            margin-top: -200px;
-        }
-
     }
 }

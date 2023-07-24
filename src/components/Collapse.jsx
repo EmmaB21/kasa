@@ -4,13 +4,13 @@ import arrow_down from "../assets/arrow_down.png"
 import "../style/components/collapse.css"
 
 
-function Collapse({ title, text }) {
+function Collapse({ title, text, ClassAccomodationCollapse }) {
     const [isOpen, setIsOpen] = useState(false);
     const handleComponentOpening = () => {
         setIsOpen((open) => !open);
     };
     return (
-        <div className="collapse">
+        <div className={`collapse ${ClassAccomodationCollapse}`}>
             <div className='collapse__title__ctn'>
                 <h3 className='collapse__title'>{title}</h3>
                 <img onClick={handleComponentOpening}

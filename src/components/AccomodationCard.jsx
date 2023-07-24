@@ -37,9 +37,11 @@ function AccomodationCard({ accomodation }) {
 
             <div className="card_collapses">
                 <Collapse
+                    ClassAccomodationCollapse={"accomodationCollapse"}
                     title="Description"
                     text={accomodation.description} />
                 <Collapse
+                    ClassAccomodationCollapse={"accomodationCollapse"}
                     title="Équipements"
                     text={<ul>
                         {accomodation.equipments.map((equipment, index) => (
