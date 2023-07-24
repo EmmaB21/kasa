@@ -1,5 +1,4 @@
 import '../style/components/rating.css'
-// import star from "../assets/star.svg"
 
 function Rating({ rate, rateMax }) {
 
@@ -7,7 +6,7 @@ function Rating({ rate, rateMax }) {
     for (let i = 1; i <= rateMax; i++) {
         const starClass = i <= rate ? 'pleine' : 'vide';
         stars.push
-        (<i key={i} className={`fa-solid fa-star fa-2x star ${starClass}`}></i>)
+            (<i key={i} className={`fa-solid fa-star star ${starClass}`}></i>)
     }
     return (
         <div className="rating">

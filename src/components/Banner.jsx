@@ -1,6 +1,6 @@
 import '../style/components/banner.css'
 
-function Banner({image, text, ClassHeightBanner}) {
+function Banner({ image, text, ClassHeightBanner }) {
     return (
         <div className={`banner ${ClassHeightBanner}`}>
             <img className='banner__img' src={image} alt='Bannière' />
