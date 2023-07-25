@@ -9,9 +9,9 @@ function Home() {
         <div className='page__ctn'>
             < Banner image={img} text="Chez vous, partout et ailleurs" />
             <section className='cards__ctn'>
-                    {data.map(card => (
-                        <Card key={card.id} card={card} />
-                    ))}
+                {data.map(card => (
+                    <Card key={card.id} card={card} />
+                ))}
             </section>
         </div>
     )
