@@ -6,7 +6,8 @@ import "../style/pages/about.css"
 function About() {
     return (
         <div className='page__ctn'>
-            < Banner image={img} ClassHeightBanner={"aboutBanner"} />
+            < Banner image={img}
+                ClassHeightBanner={"aboutBanner"} />
             <div className='collapses__ctn'>
                 <Collapse
                     title="Fiabilité"
